@@ -8,6 +8,7 @@
 
 html {
     font-size: 62.5%;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -274,34 +275,34 @@ a {
     max-width: 100%;
 }
 
-/* ======== Featured ======== */
-.featured {
+/* ======== features ======== */
+.features {
     margin-top: 41px;
     padding: 110px 0;
     background: #f5fafe;
 }
 
-.featured .sub-title {
+.features .sub-title {
     font-weight: 600;
     font-size: 3.5rem;
     line-height: 1;
     color: #000339;
 }
 
-.featured .row {
+.features .row {
     display: flex;
     justify-content: space-between;
     margin-top: 15px;
 }
 
-.featured .desc {
+.features .desc {
     font-weight: 400;
     font-size: 1.6rem;
     line-height: 1.88;
     color: #5a6473;
 }
 
-.featured .link {
+.features .link {
     display: flex;
     align-items: center;
     font-weight: 600;
@@ -309,23 +310,23 @@ a {
     color: #0689ff;
 }
 
-.featured .link .arrow {
+.features .link .arrow {
     margin-left: 8px;
 }
 
-.featured .list {
+.features .list {
     display: flex;
     gap: 30px;
     margin-top: 70px;
 }
 
-.featured .item {
+.features .item {
     flex: 1;
     background: #fff;
     border-radius: 12px;
 }
 
-.featured .item .thumb {
+.features .item .thumb {
     width: 100%;
     height: 227px;
     object-fit: cover;
@@ -333,18 +334,18 @@ a {
     border-top-right-radius: 12px;
 }
 
-.featured .item .body {
+.features .item .body {
     padding: 17px 20px 24px;
 }
 
-.featured .item .title a {
+.features .item .title a {
     font-weight: 600;
     font-size: 2rem;
     line-height: 1.5;
     color: #000339;
 }
 
-.featured .item .desc {
+.features .item .desc {
     margin-top: 11px;
     font-weight: 500;
     font-size: 1.4rem;
@@ -354,21 +355,21 @@ a {
     word-wrap: break-all;
 }
 
-.featured .item .info {
+.features .item .info {
     display: flex;
     align-items: center;
     margin-top: 21px;
 }
 
-.featured .item .icon {
+.features .item .icon {
     margin-left: 23px;
 }
 
-.featured .item .icon:first-child {
+.features .item .icon:first-child {
     margin-left: 0;
 }
 
-.featured .item .label {
+.features .item .label {
     margin-left: 8px;
     font-weight: 500;
     font-size: 1.4rem;
